@@ -11,7 +11,10 @@ Therefore, my VPG reward calculations below will have the plot and model from th
 
 You can comment out test and train function calls in the main of the files.
 
+**USAGE**
+
 MUJOCO_GL=egl PYOPENGL_PLATFORM=egl python sac.py
+
 MUJOCO_GL=egl PYOPENGL_PLATFORM=egl python vanilla_pg.py
 
 
