@@ -1,4 +1,4 @@
-# cmpe591-hw3
+# cmpe591-hw3-Ramazan Onur Acar
 
 In this homework, I initially trained SAC and VPG with the previous reward function, the one in the "_homework3.py" because of a misunderstanding.
 
