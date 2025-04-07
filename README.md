@@ -24,3 +24,20 @@ MUJOCO_GL=egl PYOPENGL_PLATFORM=egl python vanilla_pg.py
 
 ## VPG PLOT (Different Reward Function)
 ![VPG](/vpg_rewards.png)
+
+
+## Details
+### Vanilla Policy Gradient (VPG)
+
+- Simple, policy network, On-policy
+- Implements the REINFORCE algorithm with a baseline
+- Trains for 5000 episodes with a discount factor of 0.99
+- Uses Adam optimizer with learning rate of 1e-3
+
+### Soft Actor-Critic (SAC)
+
+- Off-policy reinforcement learning
+- Uses a Gaussian policy network and dual Q-networks
+- Trains for 2000 episodes with a discount factor of 0.99
+- Uses Adam optimizer with learning rate of 3e-4
+- Includes target networks with soft updates (tau=0.005)
