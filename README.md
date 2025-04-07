@@ -6,7 +6,7 @@ Later, I did with the newest reward function. However, I faced an issue: Because
 
 **IMPORTANT**
 
-Therefore, my VPG reward calculations below will have the plot and model from the "_homework3.py"s environment and my SAC will have my newly defined "my_hw3" environment.
+Therefore, I will submit the first version of VPG I made, my VPG reward calculations below will have the plot and model from the "_homework3.py"s environment and my SAC will have my newly defined "my_hw3" environment.
 
 
 You can comment out test and train function calls in the main of the files.
