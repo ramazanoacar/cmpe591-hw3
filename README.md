@@ -43,7 +43,6 @@ For the Vanilla Policy Gradient, I implemented several different logics for baes
 - Batch size: 256 for stable gradient estimates
 - Entropy regularization coefficient (alpha): 0.2
 - Discount factor (gamma): 0.99
-- Polyak averaging coefficient: 0.995 for target network updates
 - Learning rates: 3e-4 for both actor and critic networks
 - Network architecture: [256, 256] hidden units with ReLU activations
 - Experience collection: 1,000 steps before starting updates
