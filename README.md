@@ -47,7 +47,6 @@ For the Vanilla Policy Gradient, I implemented several different logics for baes
 - Network architecture: [256, 256] hidden units with ReLU activations
 - Experience collection: 1,000 steps before starting updates
 - Trained for 3,000 episodes with intermediate model checkpoints every 250 episodes
-- Deterministic policy for evaluation during testing
 
 ## Performance
 - SAC achieved faster convergence and more stable training compared to VPG
