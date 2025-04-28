@@ -20,19 +20,19 @@ MUJOCO_GL=egl PYOPENGL_PLATFORM=egl python homework3.py
 
 ## Implementation Details
 
+For the Vanilla Policy Gradient, I implemented several different logics for baesline and advantage. However, I couldn't make it learn in fewer than 10k episodes in my all trials. This version is my latest trial andI believe that It would have learned if I had tried with more episodes like 50k.
+
 ### Vanilla Policy Gradient (VPG)
 - Implemented REINFORCE algorithm with a state-dependent baseline for variance reduction
 - Used the high-level state representation
 - For Baseline, simple MLP with two hidden layers for value function approximation
 - Baseline discount factor: 0.9 for temporal difference updates
-  - This gives more importance to recent rewards, improving responsiveness to recent experiences
-  - Helps the value function adapt more quickly to the current policy's performance
+  - I aim to give more importance to recent rewards, improving responsiveness to recent experiences
+  - Tried to help the value function adapt more quickly to the current policy's performance
 - Normalized advantages to stabilize training
-  - Reduces variance in policy updates by standardizing the scale of advantages
-  - Prevents large policy shifts from outlier advantage values
-  - Makes training less sensitive to reward scaling and more consistent across environments
-- Policy network: Multi-layer perceptron with tanh activations
-- Trained for 20,000 episodes to ensure convergence
+  - To Reduce variance in policy updates by standardizing the scale of advantages
+  - To Prevent large policy shifts
+- Trained for 20,000 episodes
 - Continuous action space with actions scaled by delta=0.05
 
 
