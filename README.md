@@ -1,5 +1,5 @@
 # cmpe591-hw3-Ramazan Onur Acar
-
+(I wanted to save my previous work before the extensions, so they are in the archieve folder if you are interested in the journey)
 In this homework, I initially trained SAC and VPG with the previous reward function, the one in the "_homework3.py" because of a misunderstanding.
 
 Later, I did with the newest reward function. However, I faced an issue: Because of some worker issue, my new version of VPG died just before saving the rewards. 
